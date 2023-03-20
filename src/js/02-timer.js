@@ -35,7 +35,7 @@ function timeDeley(selectedDates) {
       return;
     }
     startBtn.disabled = false;  
-    return timeDeley = selectedDate-curentTime;
+    return timeDeley = selectedTime-curentTime;
   }
   
   function convertMs(ms) {
